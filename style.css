@@ -1,30 +1,54 @@
-span {
-    color: #00b33c;
+:root {
+    --bg-primary: #00b33c;
+    --text-primary: #00b33c;
+    --width: 20rem;
+    --legba-border-radius: 0.5rem;
 }
-#pw {
-    color: #00b33c;
-}
+
 div.container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 95vh;
+    height: 90vh;
+    width: 100%;
 }
-.form-input {
+
+div.container div.details{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+div.container form input.form-input {
     display: block;
-    height: 30px;
-    border-radius: 3px;
+    height: 40px;
+    width: var(--width);
+    padding: 0.5rem;
+    border-radius: var(--legba-border-radius);
+    border: 2px solid var(--bg-primary);
+    margin-bottom: 1rem;
 }
-#username{
-    border-color: #00b33c;
+
+div.container .text-center {
+    text-align: center;
 }
-#password {
-    background-color:#ccf5ff;
+div.container h1 {
+    margin-bottom: 0.5rem;
 }
-#text{
-    border-radius: 3px;
-    border-color: #00b33c;
+div.container p {
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+div.container p span {
+    color: var(--text-primary);
+}
+
+div.container form button {
+    color: var(--text-primary);
+    border: 1px solid var(--bg-primary);
     background-color: #4dffb8;
-    height: 30px;
+    border-radius: var(--legba-border-radius);
+    padding: 10px 20px;
+    width: var(--width);
+    margin-top: 0.5rem;
 }

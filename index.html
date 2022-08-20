@@ -1,24 +1,38 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Login Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h2>Welcome</h2>
+      <div class="details">
+        <h1>Welcome</h1>
         <p>Login to <span>OneWelleness</span></p>
-        <div class="input">
-            <form>
-        <input type="text" required id="username" class="form-input" placeholder="username"> <br>
-         <input type="password" required id="password" class="form-input" placeholder="password"> <br>
-         <input type="checkbox" id="checkbox"> Stay signed in <br>
-         <input type="text" id="text" placeholder="Sign in"> <br>
-         <p id="pw">Forgot Password?</p>
-            </form>
-        </div>
-    </div> 
-</body>
+      </div>
+      <form>
+        <input
+          type="text"
+          required
+          id="username"
+          class="form-input"
+          placeholder="username"
+        />
+        <input
+          type="password"
+          required
+          id="password"
+          class="form-input"
+          placeholder="password"
+        />
+        <p class="text-center">
+          <input type="checkbox" id="checkbox" /> Stay signed in
+        </p>
+        <button type="submit">Sign In</button> <br />
+        <p class="text-center">Forgot Password?</p>
+      </form>
+    </div>
+  </body>
 </html>
