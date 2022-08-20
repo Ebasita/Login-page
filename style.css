@@ -1,0 +1,30 @@
+span {
+    color: #00b33c;
+}
+#pw {
+    color: #00b33c;
+}
+div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 95vh;
+}
+.form-input {
+    display: block;
+    height: 30px;
+    border-radius: 3px;
+}
+#username{
+    border-color: #00b33c;
+}
+#password {
+    background-color:#ccf5ff;
+}
+#text{
+    border-radius: 3px;
+    border-color: #00b33c;
+    background-color: #4dffb8;
+    height: 30px;
+}
